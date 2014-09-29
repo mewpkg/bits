@@ -12,7 +12,7 @@ package bits
 //    00001   => 4
 //    000001  => 5
 //    0000001 => 6
-func (br *Reader) ReadUnary() (n uint64, err error) {
+func (br *Reader) ReadUnary() (x uint64, err error) {
 	for {
 		bit, err := br.Read(1)
 		if err != nil {
@@ -21,7 +21,7 @@ func (br *Reader) ReadUnary() (n uint64, err error) {
 		if bit == 1 {
 			break
 		}
-		n++
+		x++
 	}
-	return n, nil
+	return x, nil
 }
