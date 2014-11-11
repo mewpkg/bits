@@ -1,6 +1,10 @@
 bits
 ====
 
+[![Build Status](https://travis-ci.org/mewpkg/bits.svg?branch=master)](https://travis-ci.org/mewpkg/bits)
+[![Coverage Status](https://img.shields.io/coveralls/mewpkg/bits.svg)](https://coveralls.io/r/mewpkg/bits?branch=master)
+[![GoDoc](https://godoc.org/github.com/mewpkg/bits?status.svg)](https://godoc.org/github.com/mewpkg/bits)
+
 This package provides bit reading operations and binary decoding algorithms.
 
 Documentation
